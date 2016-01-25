@@ -1,57 +1,12 @@
-.jumbotron {
-  background-image: url("../img/ping-pong.jpg");
-  background-size: cover;
-  color: white;
-  height: 400px;
-  text-shadow: -1px 0 #35586C, 0 1px #35586C, 3px 0 #35586C, 0 -1px #35586C;
+#show-contact {
+  display: none;
 }
 
-.sidebar {
-  background-color: #35586C;
-  opacity: 0.6;
-  border-radius: 13%;
-  color: black;
-  width: 30%;
-  float: right;
-  padding: 15px;
-  margin-right: none;
-  margin-left: 30px;
-  list-style-type: none;
-  text-align: center;
+.contact {
+  cursor: pointer;
+  color: #0088cc;
 }
 
-.sidebar .lead {
-  color: white;
-  text-align: left;
-}
-
-a {
+.contact:hover {
   text-decoration: underline;
-  color: black;
-}
-
-a:hover {
-  color: white;
-}
-
-.container {
-  margin-bottom: 50px;
-}
-
-.btn:hover {
-  background-color: #35586C;
-  color: white;
-}
-
-.modal-body img {
-  float: right;
-  height: 100px;
-  width: auto;
-  border-radius: 50%
-}
-
-@media only screen and (max-width: 650px) {
-    .sidebar {
-        display: none;
-    }
 }
