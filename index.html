@@ -37,7 +37,19 @@
                 </div>
               </div>
             </div>
-            <span class="btn btn-primary" id="add-address">Another address</span>
+            <div class="btn-group">
+              <button type="button" span class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Add Another Address</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" value="Home" id="add-address-home">Home</a>
+                  <a class="dropdown-item" value="Work" id="add-address-work">Work</a>
+                  <a class="dropdown-item" value="School" id="add-address-school">School</a>
+                  <a class="dropdown-item" value="Email" id="add-address-email">Email</a>
+                </div>
+              </div>
+
+
+            <!-- <span class="btn btn-primary" id="add-address">Another address</span> -->
 
             <button type="submit" class="btn" btn-lg btn-primary>Add Contact</button>
           </form>
